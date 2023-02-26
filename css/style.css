@@ -1,0 +1,81 @@
+@import url('reset.css');
+
+.clearfix::after {
+    content:'';
+    clear: both;
+    display: block;
+}
+
+.container_1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_3 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.child {
+    width: 400px;
+    height: 400px;
+    background: green;
+    outline: 1px solid black;
+    float: left;
+}
+
+.float_1 {
+    width: 800px;
+    background: orange;
+}
+.child_1 {
+    height: 200px;
+    outline: 1px solid black;
+}
+
+.float_2 {
+    width: 400px;
+    background: rgb(0, 247, 255);
+}
+
+.child_2 {
+    height: 133.33px;
+    outline: 1px solid black;
+}
+
+.float_3 {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+}
+
+.float_4 {
+    width: 800px;
+    height: 200px;
+    background: blue;
+    float: left;
+}
+
+.float_5 {
+    width: 400px;
+    height: 200px;
+    background:purple;
+    float: left;
+}
+
+.float_6 {
+    width: 400px;
+    height: 200px;
+    background: yellow;
+    float: right;
+}
+
+.child_3 {
+    height: 100px;
+    outline: 1px solid black;
+}
